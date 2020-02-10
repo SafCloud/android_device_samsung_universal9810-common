@@ -105,6 +105,3 @@ PRODUCT_PACKAGES += \
 
 # Property overrides
 -include $(LOCAL_PATH)/system_prop.mk
-
-# Call proprietary blob setup
-$(call inherit-product, vendor/samsung/universal9810-common/universal9810-common-vendor.mk)
