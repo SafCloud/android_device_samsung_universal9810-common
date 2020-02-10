@@ -65,6 +65,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.4 \
+    libxml2
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
