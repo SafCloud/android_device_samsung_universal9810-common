@@ -101,6 +101,9 @@ OVERRIDE_RS_DRIVER := libRSDriverArm.so
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
 
+# Keystore
+TARGET_PROVIDES_KEYMASTER := true
+
 # Include
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
