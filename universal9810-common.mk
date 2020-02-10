@@ -53,14 +53,16 @@ PRODUCT_COPY_FILES += \
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_PACKAGES += \
-    libshim_audio \
-    audioloader
-PRODUCT_COPY_FILES += \
-    frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml
-
-# Bluetooth
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
+    android.hardware.audio@2.0-service \
+    android.hardware.audio@5.0-impl \
+    android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.common@5.0-util \
+    android.hardware.soundtrigger@2.0-impl \
+    audio.primary.default \
+    audio.a2dp.default \
+    audio.usb.default \
+    audio.r_submix.default \
+    libtinycompress
 
 # Camera
 PRODUCT_PACKAGES += \
