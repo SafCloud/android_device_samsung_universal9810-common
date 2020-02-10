@@ -51,6 +51,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Filesystem
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+
+# Ramdisk
+BOARD_ROOT_EXTRA_FOLDERS := efs cache
 
 # Extended Filesystem Support
 TARGET_EXFAT_DRIVER := sdfat

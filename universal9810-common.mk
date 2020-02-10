@@ -28,12 +28,14 @@ TARGET_SCREEN_WIDTH := 1440
 # Init
 PRODUCT_PACKAGES += \
     fstab.samsungexynos9810 \
+    init.baseband.rc \
+    init.gps.rc \
     init.samsung.rc \
     init.samsungexynos9810.rc \
     init.samsungexynos9810.usb.rc \
-    init.baseband.rc \
-    init.gps.rc \
-    init.wifi.rc \
+    init.vendor.onebinary.rc \
+    init.vendor.rilchip.rc \
+    init.vendor.rilcommon.rc \
     ueventd.samsungexynos9810.rc
 
 # Treble
