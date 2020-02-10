@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
     init.vendor.rilcommon.rc \
     ueventd.samsungexynos9810.rc
 
+# Zswap
+PRODUCT_PACKAGES += \
+    sswap
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 
