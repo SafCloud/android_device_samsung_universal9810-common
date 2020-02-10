@@ -126,5 +126,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Vendor/default.prop
+-include $(LOCAL_PATH)/default_prop.mk
+
 # Property overrides
 -include $(LOCAL_PATH)/system_prop.mk
