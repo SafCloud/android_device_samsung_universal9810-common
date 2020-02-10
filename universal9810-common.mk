@@ -74,6 +74,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0 \
+    android.hardware.gnss@2.0-impl \
+    android.hardware.gnss@1.1-impl
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-impl \
