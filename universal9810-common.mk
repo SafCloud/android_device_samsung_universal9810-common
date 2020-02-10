@@ -79,10 +79,6 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag
 
-# Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.0-service.9810
-
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.samsung
