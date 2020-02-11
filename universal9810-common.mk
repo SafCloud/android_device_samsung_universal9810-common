@@ -80,6 +80,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Wifi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.0-service \
+    android.hardware.wifi@1.0 \
+    android.hardware.wifi@1.3 \
+    android.hardware.wifi.supplicant@1.0 \
+    android.hardware.wifi.supplicant@1.2 \
+    android.hardware.wifi.hostapd@1.0
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0 \
