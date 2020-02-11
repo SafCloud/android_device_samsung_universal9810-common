@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
+TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@5.0-impl \
