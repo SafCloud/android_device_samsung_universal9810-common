@@ -74,6 +74,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0 \
+    android.hardware.camera.provider@2.4 \
+    android.hardware.camera.provider@2.4-legacy \
+    android.hardware.camera.provider@2.5 \
+    android.hardware.camera.provider@2.5-legacy \
+    android.hardware.camera.provider@2.5-impl \
+    camera.device@1.0 \
+    camera.device@3.2 \
+    camera.device@3.3 \
+    camera.device@3.4 \
+    camera.device@3.5 \
+    libhwjpeg \
+    libexif
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4 \
