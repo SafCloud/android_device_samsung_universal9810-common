@@ -97,6 +97,11 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl \
     android.hardware.gnss@1.1-impl
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-service \
+    android.hardware.bluetooth@1.0-impl
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-impl \
