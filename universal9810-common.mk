@@ -66,10 +66,6 @@ PRODUCT_PACKAGES += \
     libfimg \
     libc++
 
-# HIDL
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/compatibility_matrix.xml:system/compatibility_matrix.xml
-
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 TARGET_EXCLUDES_AUDIOFX := true

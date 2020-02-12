@@ -92,6 +92,10 @@ BOARD_BUILD_DISABLED_VBMETAIMAGE := true
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+
 # Enable 64-bits binder
 TARGET_USES_64_BIT_BINDER := true
 
