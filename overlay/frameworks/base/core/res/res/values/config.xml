@@ -112,6 +112,8 @@
     <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
     <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_safe_media_volume_enabled">false</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
     <integer name="config_wifi_idle_receive_cur_ma">1</integer>
     <integer name="config_wifi_active_rx_cur_ma">65</integer>
     <integer name="config_wifi_tx_cur_ma">265</integer>
@@ -126,6 +128,14 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
     <bool name="config_enableBurnInProtection">true</bool>
     <integer name="config_screenBrightnessDoze">22</integer>
+    <string-array translatable="false" name="config_globalActionsList">
+        <item>power</item>
+        <item>restart</item>
+        <item>lockdown</item>
+        <item>logout</item>
+        <item>bugreport</item>
+        <item>screenshot</item>
+    </string-array>
     <bool name="config_freeformWindowManagement">true</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
@@ -137,13 +147,17 @@
         <item>"/system/framework/boot.vdex"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/boot-core-libart.vdex"</item>
+        <item>"/product/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/product/priv-app/SystemUI/oat/arm64/SystemUI.odex"</item>
+        <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
     <bool name="config_pinnerCameraApp">true</bool>
+    <bool name="config_pinnerHomeApp">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
     <bool name="config_cellBroadcastAppLinks">true</bool>
     <string name="config_radio_access_family">GSM|WCDMA|LTE</string>
     <bool name="config_animateScreenLights">true</bool>
-    <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
+    <integer name="config_fingerprintMaxTemplatesPerUser">5</integer>
     <integer-array name="config_longPressVibePattern">
         <item>7</item>
     </integer-array>
@@ -160,4 +174,5 @@
     <string name="db_default_sync_mode" translatable="false">OFF</string>
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+    <bool name="config_allowAllRotations">true</bool>
 </resources>
