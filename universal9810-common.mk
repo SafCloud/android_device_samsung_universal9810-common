@@ -167,9 +167,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
-# Preopt SystemUI
+# Preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUI \
+    Settings \
+    Snap \
+    TrebuchetQuickStep
 
 # Keylayout
 PRODUCT_COPY_FILES += \
