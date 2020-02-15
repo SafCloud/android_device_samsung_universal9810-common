@@ -124,6 +124,9 @@ USE_DEVICE_SPECIFIC_THERMAL := true
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
+# Vendor Security Patch Level
+VENDOR_SECURITY_PATCH := 2020-02-05
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
