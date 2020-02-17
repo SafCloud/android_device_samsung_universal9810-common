@@ -118,6 +118,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 TARGET_USES_HWC2 := true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 OVERRIDE_RS_DRIVER := libRSDriverArm.so
+BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 
 # Thermal
 USE_DEVICE_SPECIFIC_THERMAL := true
