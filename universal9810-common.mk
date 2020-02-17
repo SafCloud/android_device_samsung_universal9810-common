@@ -169,6 +169,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@2.0-service.samsung-exynos
+
 # Preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
