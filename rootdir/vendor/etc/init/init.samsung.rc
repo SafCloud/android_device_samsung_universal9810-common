@@ -1,5 +1,8 @@
 on init
 
+    # Set SunlightEnhancement sysnode owner
+    chown system system /sys/class/mdnie/mdnie/lux
+
     # MirrorLink permission
     mkdir /dev/socket/mlaudio 0770 audioserver system
 
