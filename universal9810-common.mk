@@ -152,10 +152,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.samsung
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-service.9810
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
