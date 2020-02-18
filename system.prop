@@ -2,9 +2,6 @@
 ro.product_ship=true
 ro.debug_level=0x4f4c
 
-# RIL
-rild.libargs=-d /dev/umts_ipc0
-
 # read DS/SS property
 import /efs/factory.prop
 
